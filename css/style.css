@@ -1,0 +1,71 @@
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+}
+p,a,span,li,label{
+	font-family: 'Noto Sans TC', sans-serif;
+}
+img{
+	max-width:100%;
+}
+#intro .jumbotron{
+	background: url('../img/jumbotron_bg.png');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 70vh;
+    margin-bottom: 0px;
+}
+
+#intro .jumbotron .container{
+	position:relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+#intro .btn{
+	margin-top: 20px;
+}
+
+#intro h1{
+    color: white;
+}
+#intro p{
+    color: white;
+}
+p{
+	font-size: 16px;
+    line-height: 26px;
+    color: #707070;
+    text-align:left;
+}
+p.lead{
+	color: black;
+	line-height: 31px;
+    text-align:left;
+}
+#about{
+    background-color: rgb(228, 228, 228);
+	padding: 80px 0px;
+}
+#about h3, #latest h3{
+	margin-bottom: 70px;
+	font-size: 32px;
+}
+#about img{
+	border-radius: 100%;
+    width: 108px;
+}
+#about h5{
+	margin-top: 22px;
+    font-size: 16px;
+}
+
+#skills{
+    background-color: rgb(255, 255, 255);
+	padding: 80px 0px;
+}
+
+#experience{
+    background-color: rgb(228, 228, 228);
+	padding: 80px 0px;
+}
+
