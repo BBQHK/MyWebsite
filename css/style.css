@@ -8,27 +8,6 @@ img{
 	max-width:100%;
 }
 
-
-#intro{
-    padding-bottom: 0.2em;
-}
-.box {
-    position:relative;
-    float: left;
-    height: 0.2em;
-    width: 250px;
-    margin-bottom: 15px;
-    /* border: 1px solid black; */
-    clear: both;
-    left:80px;
-  }
-  
-  .red {
-    background-color: rgb(255, 191, 96);
-  }
-  
-
-
 #intro .jumbotron{
 	background: url('../img/jumbotron_bg.png');
 	background-size: cover;
@@ -53,22 +32,24 @@ img{
 #intro p{
     color: white;
 }
+
 p{
 	font-size: 16px;
     line-height: 26px;
-    color: #707070;
+    color: white;
     text-align:left;
 }
 p.lead{
-	color: black;
+	color: white;
 	line-height: 31px;
     text-align:left;
 }
 #about{
-    background-color: rgb(228, 228, 228);
+    background-color: #333;
 	padding: 80px 0px;
 }
 #about h3, #latest h3{
+    color: white;
 	margin-bottom: 70px;
 	font-size: 32px;
 }
@@ -77,6 +58,7 @@ p.lead{
     width: 108px;
 }
 #about h5{
+    color: white;
 	margin-top: 22px;
     font-size: 16px;
 }
@@ -86,8 +68,16 @@ p.lead{
 	padding: 80px 0px;
 }
 
+p.skill-name{
+    color: rgb(0, 0, 0);
+}
+
+#experience h3{
+    color: white;
+}
+
 #experience{
-    background-color: rgb(228, 228, 228);
+    background-color: #333;
 	padding: 80px 0px;
 }
 #portfolio{
@@ -102,7 +92,29 @@ p.lead{
 }
 
 #contact{
-    background-color: rgb(228, 228, 228);
+    background-color: #333;
 	padding: 80px 0px;
 }
 
+#contact h3{
+    color: white;
+}
+
+#contact label{
+    color: white;
+}
+
+#submit_btn{
+    margin-top:20px;
+}
+
+footer{
+    background-color: black;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
