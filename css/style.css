@@ -71,7 +71,10 @@ p.lead{
 p.skill-name{
     color: rgb(0, 0, 0);
 }
-
+.bg-danger {
+    --bs-bg-opacity: 1;
+    background-color: rgba(255, 38, 85, var(--bs-bg-opacity))!important;
+}
 #experience h3{
     color: white;
 }
